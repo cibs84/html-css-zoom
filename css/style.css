@@ -35,7 +35,7 @@ a {
 /* HEADER */
 header {
     height: 80px;
-    background-color: lightblue;
+    background-color: black;
     position: fixed;
     left: 0;
     top: 0;
@@ -43,7 +43,18 @@ header {
 }
 
 header nav {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
 
+header nav > * {
+    display: inline-block;
+    background-color: #4a4a4a;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 2px;
 }
 
 /* MAIN */
