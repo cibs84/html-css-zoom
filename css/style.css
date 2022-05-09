@@ -8,7 +8,7 @@
 /* COMMON */
 
 body {
-
+    color: white;
 }
 
 .container {
@@ -33,7 +33,31 @@ a {
 }
 
 /* HEADER */
+header {
+    height: 80px;
+    background-color: lightblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header nav {
+
+}
 
 /* MAIN */
+main {
+    height: calc(100vh - 160px);
+}
+
 
 /* FOOTER */
+footer {
+    height: 80px;
+    background-color: lightcoral;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
