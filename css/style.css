@@ -9,10 +9,12 @@
 
 body {
     color: white;
+    background-color: black;
 }
 
 .container {
-    width: 85%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .flex-container {
@@ -25,6 +27,7 @@ ul {
 
 img {
     width: 100%;
+    display: block;
 }
 
 a {
@@ -34,7 +37,7 @@ a {
 
 /* HEADER */
 header {
-    height: 80px;
+    height: 40px;
     background-color: black;
     position: fixed;
     left: 0;
@@ -59,14 +62,39 @@ header nav > * {
 
 /* MAIN */
 main {
-    height: calc(100vh - 160px);
+    margin-top: 70px;
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
 }
 
+main section {
+    height: calc(100vh - 160px);
+    background-color: black;
+}
+
+main section .all-cards {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 10px;
+    width: calc((100% / 7) - 5px);
+    position: relative;
+}
+
+.card .mic-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+}
 
 /* FOOTER */
 footer {
-    height: 80px;
-    background-color: lightcoral;
+    height: 100px;
+    background-color: #222222;
     position: fixed;
     left: 0;
     bottom: 0;
