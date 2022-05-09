@@ -10,6 +10,8 @@
 body {
     color: white;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .container {
@@ -99,4 +101,34 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    align-items: center;
+}
+
+footer ul li {
+margin: 0 10px;}
+
+footer > div {
+    text-align: center;
+    line-height: 25px;
+}
+
+footer span {
+    display: block;
+}
+
+footer span.active-icon {
+    color: #4bc800;
+}
+
+footer .ft-right {
+    background-color: #4a4a4a;
+    color: #f40018;
+    height: 100%;
+    padding: 0 20px;
+    line-height: 100px;
 }
