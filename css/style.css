@@ -107,14 +107,14 @@ footer {
 
 footer ul {
     align-items: center;
+    text-align: center;
+    line-height: 25px;
 }
 
 footer ul li {
 margin: 0 10px;}
 
-footer > div {
-    text-align: center;
-    line-height: 25px;
+footer > ul {
 }
 
 footer span {
